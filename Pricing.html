@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Camira — Pricing</title>
+
+  <!-- reuse your site CSS -->
+  <link rel="stylesheet" href="css/site_global.css?crc=4185260426" />
+  <link rel="stylesheet" href="css/index.css?crc=3951584500" id="pagesheet" />
+
+  <!-- reuse your webfont if needed -->
+  <script type="text/javascript">var __adobewebfontsappname__="muse";</script>
+  <script src="https://webfonts.creativecloud.com/krona-one:n4:all;coda:n4:all.js" defer></script>
+
+  <style>
+    /* Page-specific styles (non-destructive to your Muse CSS) */
+    body { background: #2E3151; }
+    main { max-width: 1020px; margin: 28px auto; padding: 0 20px 80px; }
+
+    .hero { text-align:center; color: #fff; padding: 80px 12px 28px; }
+    .hero h1 { font-family: coda, sans-serif; margin: 0 0 6px; font-size: 36px; }
+    .hero p { margin: 0 0 8px; opacity: 0.95; }
+
+    .pricing-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap:18px; margin-top:20px; }
+    .pricing-card { background: rgba(255,255,255,0.98); border-radius:12px; padding:18px; text-align:center; box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
+    .pricing-card h3 { margin: 8px 0; font-family:krona-one, sans-serif; color:#222; }
+    .price { font-size:28px; font-weight:700; color:#2E3192; margin-bottom:10px; }
+    .features { text-align:left; margin:12px 0 16px; color:#333; }
+    .btn-cta { display:inline-block; padding:10px 16px; border-radius:8px; text-decoration:none; background:#2E3192; color:#fff; font-weight:600; }
+
+    /* Calculator specific */
+    #pricing-calculator { background: rgba(255,255,255,0.98); border-radius:12px; padding:18px; margin-top:22px; }
+    #pricing-calculator h2 { margin:0 0 8px; font-family:coda, sans-serif; }
+    .svc-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+    .svc-item { display:block; padding:12px; border-radius:8px; border:1px solid rgba(0,0,0,0.06); }
+    .svc-item strong { display:block; }
+    .svc-item .price-small { margin-top:8px; font-weight:700; color:#2E3192; }
+    #total-row { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:18px; flex-wrap:wrap; }
+    #total-amount { color:#2E3192; font-weight:700; font-size:18px; }
+
+    @media (max-width:700px){
+      .hero h1 { font-size:28px; }
+    }
+
+    /* Ensures the pricing nav item stays styled like on the main site */
+    /* (These are safe duplicates of the CSS you already have for menu IDs) */
+    #u4000{ width:92px; min-height:34px; position:relative; margin-right:-10000px; left:469px; }
+    #u4001{ width:92px; background-color:transparent; border-radius:10px; padding-bottom:17px; position:relative; }
+    #u4002-4{ width:92px; min-height:17px; text-align:center; color:#FFFFFF; font-family:krona-one, sans-serif; position:relative; margin-right:-10000px; top:8px; }
+    #u4001.MuseMenuActive #u4002-4 p{ font-family: Helvetica, Helvetica Neue, Arial, sans-serif; }
+  </style>
+</head>
+<body>
+  <div id="page" class="clearfix">
+    <!-- Top nav (keeps your existing structure & IDs so styles match) -->
+    <div id="u2163-bw" class="browser_width colelem"><div id="u2163">
+      <div id="u2163_align_to_page" class="clearfix">
+        <nav class="MenuBar rounded-corners clearfix grpelem" id="menuu2033">
+          <!-- Home -->
+          <div class="MenuItemContainer clearfix grpelem" id="u2041">
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing rounded-corners clearfix colelem" id="u2042" href="index.html#home">
+              <div class="MenuItemLabel NoWrap rounded-corners clearfix grpelem" id="u2043-4"><p>Home</p></div>
+            </a>
+          </div>
+
+          <!-- About -->
+          <div class="MenuItemContainer clearfix grpelem" id="u2078">
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing rounded-corners clearfix colelem" id="u2079" href="index.html#about">
+              <div class="MenuItemLabel NoWrap rounded-corners clearfix grpelem" id="u2081-4"><p>About Us</p></div>
+            </a>
+          </div>
+
+          <!-- Services -->
+          <div class="MenuItemContainer clearfix grpelem" id="u2107">
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing rounded-corners clearfix colelem" id="u2108" href="index.html#services">
+              <div class="MenuItemLabel NoWrap rounded-corners clearfix grpelem" id="u2109-4"><p>Services</p></div>
+            </a>
+          </div>
+
+          <!-- Contact -->
+          <div class="MenuItemContainer clearfix grpelem" id="u2135">
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing rounded-corners clearfix colelem" id="u2138" href="index.html#contact">
+              <div class="MenuItemLabel NoWrap rounded-corners clearfix grpelem" id="u2139-4"><p>Contact Us</p></div>
+            </a>
+          </div>
+
+          <!-- Articles -->
+          <div class="MenuItemContainer clearfix grpelem" id="u2976">
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix colelem" id="u2977" href="Articles.html">
+              <div class="MenuItemLabel NoWrap rounded-corners clearfix grpelem" id="u2979-4"><p>Articles</p></div>
+            </a>
+          </div>
+
+          <!-- Pricing (active) -->
+          <div class="MenuItemContainer clearfix grpelem" id="u4000">
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing rounded-corners clearfix colelem MuseMenuActive" id="u4001" href="pricing.html">
+              <div class="MenuItemLabel NoWrap rounded-corners clearfix grpelem" id="u4002-4"><p>Pricing</p></div>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div></div>
+
+    <main>
+      <section class="hero">
+        <h1>Pricing</h1><br>
+        <p>Transparent fees for accounting & advisory services — build a package and get an instant estimate.</p>
+      </section>
+
+      
+      <!-- Calculator: interactive services selector -->
+      <section id="pricing-calculator">
+        <h2>Build your package</h2>
+        <p style="margin:6px 0 12px;color:#444;">Select services below to calculate your total. Click "Get Started" to email your selection.</p>
+
+        <form id="svc-form" aria-describedby="calc-total-desc">
+          <div class="svc-grid">
+            <label class="svc-item">
+              <input type="checkbox" name="service" value="Basic bookkeeping" data-price="499" />
+              <strong>Basic bookkeeping</strong>
+              <div style="font-size:13px;color:#666;margin-top:6px">Monthly transactions, basic reports</div>
+              <div class="price-small">R499</div>
+            </label>
+
+            <label class="svc-item">
+              <input type="checkbox" name="service" value="Full bookkeeping & budgets" data-price="1299" />
+              <strong>Full bookkeeping & budgets</strong>
+              <div style="font-size:13px;color:#666;margin-top:6px">Detailed monthly budgets & reconciliation</div>
+              <div class="price-small">R1,299</div>
+            </label>
+
+            <label class="svc-item">
+              <input type="checkbox" name="service" value="Tax filings & advisory" data-price="2499" />
+              <strong>Tax filings & advisory</strong>
+              <div style="font-size:13px;color:#666;margin-top:6px">SARS filings, tax advice & planning</div>
+              <div class="price-small">R2,499</div>
+            </label>
+
+            <label class="svc-item">
+              <input type="checkbox" name="service" value="Payroll processing" data-price="899" />
+              <strong>Payroll processing</strong>
+              <div style="font-size:13px;color:#666;margin-top:6px">Monthly payroll & PAYE submissions</div>
+              <div class="price-small">R899</div>
+            </label>
+
+            <label class="svc-item">
+              <input type="checkbox" name="service" value="Weekly bookkeeping" data-price="799" />
+              <strong>Weekly bookkeeping</strong>
+              <div style="font-size:13px;color:#666;margin-top:6px">More frequent updates & tighter controls</div>
+              <div class="price-small">R799</div>
+            </label>
+
+            <label class="svc-item">
+              <input type="checkbox" name="service" value="Priority support" data-price="399" />
+              <strong>Priority support</strong>
+              <div style="font-size:13px;color:#666;margin-top:6px">Faster response times & phone support</div>
+              <div class="price-small">R399</div>
+            </label>
+          </div>
+
+          <div id="total-row">
+            <div style="font-size:18px;font-weight:700;">Total: <span id="total-amount" aria-live="polite">R0</span></div>
+
+            <div style="display:flex;gap:8px;">
+              <button type="button" id="btn-reset" style="background:#fff;border:1px solid #ccc;padding:10px 14px;border-radius:8px;cursor:pointer">Reset</button>
+              <a id="mailto-btn" class="btn-cta" href="#" style="color: white">Get Started</a>
+            </div>
+          </div>
+
+          <p id="calc-total-desc" style="margin-top:8px;color:#666;font-size:13px;">Selected services will be added to your request email when you click "Get Started".</p>
+        </form>
+
+        <script>
+          (function(){
+            const form = document.getElementById('svc-form');
+            const totalEl = document.getElementById('total-amount');
+            const mailBtn = document.getElementById('mailto-btn');
+            const resetBtn = document.getElementById('btn-reset');
+
+            function formatCurrency(n){
+              return 'R' + n.toLocaleString('en-ZA', {minimumFractionDigits:0, maximumFractionDigits:0});
+            }
+
+            function calculate(){
+              const checked = Array.from(form.querySelectorAll('input[name="service"]:checked'));
+              const total = checked.reduce((sum, cb) => sum + Number(cb.dataset.price || 0), 0);
+              totalEl.textContent = formatCurrency(total);
+
+              const servicesList = checked.map(cb => cb.value + ' (' + formatCurrency(Number(cb.dataset.price || 0)) + ')').join(', ') || 'None';
+              const subject = encodeURIComponent('Pricing inquiry — Camira');
+              const bodyLines = [
+                'Hello Camira team,',
+                '',
+                'I am interested in the following services:',
+                servicesList,
+                '',
+                'Total estimate: ' + formatCurrency(total),
+                '',
+                'Please contact me to proceed.',
+                ''
+              ];
+              const body = encodeURIComponent(bodyLines.join('\n'));
+              mailBtn.href = 'mailto:info@camira.co.za?subject=' + subject + '&body=' + body;
+            }
+
+            form.addEventListener('change', function(e){ if(e.target && e.target.name === 'service') calculate(); });
+            resetBtn.addEventListener('click', function(){ form.querySelectorAll('input[name="service"]').forEach(i => i.checked = false); calculate(); });
+            calculate();
+          })();
+        </script>
+
+      </section>
+
+    
+
+      <!-- Enquiry form -->
+      <section id="enquiry-section" style="margin-top:26px">
+        <div style="background:rgba(255,255,255,0.98);border-radius:12px;padding:20px;max-width:920px;margin:18px auto;box-shadow:0 10px 30px rgba(0,0,0,0.08)">
+          <h2 style="margin:0 0 6px;font-family:coda, sans-serif;">Enquiry & Contact</h2>
+          <p style="margin:0 0 14px;color:#444;">Complete the form below and we'll get back to you with a personalised quote. Your selected services and total are included automatically.</p>
+
+          <form id="enquiry-form" novalidate>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+              <label style="display:block;"><span style="font-weight:600;">Full name</span> <input name="name" type="text" required style="width:100%;padding:10px;margin-top:6px;border-radius:8px;border:1px solid #ddd;" placeholder="e.g. Wessle M"></label>
+
+              <label style="display:block;"><span style="font-weight:600;">Email</span> <input name="email" type="email" required style="width:100%;padding:10px;margin-top:6px;border-radius:8px;border:1px solid #ddd;" placeholder="you@company.co.za"></label>
+
+              <label style="display:block;"><span style="font-weight:600;">Phone</span> <input name="phone" type="tel" required style="width:100%;padding:10px;margin-top:6px;border-radius:8px;border:1px solid #ddd;" placeholder="+27 82 555 1234"></label>
+
+              <label style="display:block;"><span style="font-weight:600;">Company (optional)</span> <input name="company" type="text" style="width:100%;padding:10px;margin-top:6px;border-radius:8px;border:1px solid #ddd;" placeholder="Company name"></label>
+            </div>
+
+            <label style="display:block;margin-top:12px;"><span style="font-weight:600;">Message</span>
+              <textarea name="message" rows="4" required style="width:100%;padding:10px;margin-top:6px;border-radius:8px;border:1px solid #ddd;" placeholder="Tell us about your needs or questions..."></textarea>
+            </label>
+
+            <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px;align-items:center;justify-content:space-between;">
+              <div style="min-width:220px">
+               
+                
+                
+              </div>
+
+              <div style="display:flex;gap:10px">
+              
+                <button type="submit" id="enq-submit" style="background:#2E3192;color:#fff;padding:10px 14px;border-radius:8px;border:0;cursor:pointer;font-weight:700">Send Enquiry</button>
+              </div>
+            </div>
+
+            <p style="margin-top:12px;color:#666;font-size:13px;"><input type="checkbox" id="consent" required> I consent to having this website store my submitted information so you can respond to my enquiry.</p>
+
+            <div id="enq-feedback" role="status" aria-live="polite" style="margin-top:12px;color:#2E3192;display:none;font-weight:700"></div>
+          </form>
+
+        </div>
+      </section>
+
+  <div id="whatsapp-chat" style="margin:28px auto; text-align:center">
+  <a href="https://wa.me/27846022397" target="_blank"
+     style="
+       display:inline-flex;
+       align-items:center;
+       gap:14px;
+       background:#fff;
+       color:#25D366;
+       padding:18px 28px;               /* Bigger padding */
+       border-radius:60px;
+       text-decoration:none;
+       font-weight:700;
+       font-family:coda, sans-serif;
+       font-size:20px;                  /* Bigger text */
+       box-shadow:0 8px 24px rgba(0,0,0,0.18);
+     ">
+    <img src="images/whatsapp-icon.gif" alt="WhatsApp"
+         style="width:38px; height:38px">   <!-- Bigger icon -->
+    <span>Chat with us</span>
+  </a>
+</div>
+
+
+    </main>
+
+    <!-- Footer: copy your existing footer here if desired -->
+  </div>
+  <script>
+(function(){
+  // Elements from your page
+  const svcForm = document.getElementById('svc-form');
+  const enquiryForm = document.getElementById('enquiry-form');
+  const enqSubmit = document.getElementById('enq-submit');
+  const enqFeedback = document.getElementById('enq-feedback');
+  const enqMessage = enquiryForm.querySelector('textarea[name="message"]');
+  const enqName = enquiryForm.querySelector('input[name="name"]');
+  const enqEmail = enquiryForm.querySelector('input[name="email"]');
+  const enqPhone = enquiryForm.querySelector('input[name="phone"]');
+  const enqCompany = enquiryForm.querySelector('input[name="company"]');
+  const consent = document.getElementById('consent');
+  const btnReset = document.getElementById('btn-reset');
+  const totalAmountEl = document.getElementById('total-amount');
+
+  // Helper to read selected services & total (used in multiple places)
+  function readSelection() {
+    const checked = Array.from(svcForm.querySelectorAll('input[name="service"]:checked'));
+    const services = checked.map(cb => cb.value + ' (' + cb.dataset.price + ')');
+    const total = checked.reduce((s, cb) => s + Number(cb.dataset.price || 0), 0);
+    return { services, total };
+  }
+
+  // Populate enquiry message with selection (keeps user's typed message if present; appends selection)
+function populateEnquiryMessage() {
+  const sel = readSelection();
+  const selectionText = sel.services.length ? sel.services.join(', ') : 'None selected';
+  const estimateText = 'Estimate: R' + sel.total.toLocaleString('en-ZA');
+  const selectionBlock = '\n\n--- Selected services ---\n' + selectionText + '\n' + estimateText + '\n';
+
+  // If there's already a selection block, remove it first
+  const marker = '--- Selected services ---';
+  let base = enqMessage.value || '';
+  if (base.includes(marker)) {
+    base = base.split(marker)[0].trim();
+  } else {
+    base = base.trim();
+  }
+
+  // Ensure a single blank line between user message and selection block (if user typed a message)
+  enqMessage.value = base ? (base + selectionBlock) : selectionBlock.trimStart();
+}
+
+
+  // Basic validation (returns {ok:boolean, msg:string})
+  function validateEnquiry() {
+    if (!enqName.value.trim()) return { ok:false, msg: 'Please enter your full name.' };
+    if (!enqEmail.value.trim()) return { ok:false, msg: 'Please enter your email address.' };
+    // simple email pattern
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(enqEmail.value.trim())) return { ok:false, msg: 'Please enter a valid email address.' };
+    if (!enqPhone.value.trim()) return { ok:false, msg: 'Please enter a phone number.' };
+    if (!enquiryForm.querySelector('textarea[name="message"]').value.trim()) return { ok:false, msg: 'Please include a short message.' };
+    if (!consent.checked) return { ok:false, msg: 'Please tick the consent checkbox.' };
+    return { ok:true };
+  }
+
+  // On enquiry submit: populate message, validate, open mailto and show feedback
+  enquiryForm.addEventListener('submit', function(ev){
+    ev.preventDefault();
+
+    // Ensure selection is reflected in message
+    populateEnquiryMessage();
+
+    const v = validateEnquiry();
+    if (!v.ok) {
+      enqFeedback.style.display = 'block';
+      enqFeedback.style.color = '#D7244C';
+      enqFeedback.textContent = v.msg;
+      setTimeout(()=> enqFeedback.style.display = 'none', 4500);
+      return;
+    }
+
+    // Build mailto body using form fields and the message
+    const subject = encodeURIComponent('Enquiry from ' + enqName.value.trim() + ' — Camira');
+    const bodyLines = [
+      'Name: ' + enqName.value.trim(),
+      'Email: ' + enqEmail.value.trim(),
+      'Phone: ' + enqPhone.value.trim(),
+      'Company: ' + (enqCompany.value.trim() || 'N/A'),
+      '',
+      'Message:',
+      enqMessage.value.trim()
+    ];
+    const body = encodeURIComponent(bodyLines.join('\\n'));
+    const mailto = 'mailto:info@camira.co.za?subject=' + subject + '&body=' + body;
+
+    // Open mail client
+    window.location.href = mailto;
+
+    // Show onscreen success message
+    enqFeedback.style.display = 'block';
+    enqFeedback.style.color = '#2E3192';
+    enqFeedback.textContent = 'Thanks — your enquiry has been prepared in your mail client. Please send the email to complete submission.';
+    // Optional: clear form fields after a short delay (comment out if you want to keep)
+    setTimeout(() => {
+      // keep fields but clear selection
+      btnReset && btnReset.click();
+    }, 800);
+  });
+
+  // Keep the "Reset" button in sync with the enquiry message and total (when reset from calculator)
+  if (btnReset) {
+    btnReset.addEventListener('click', function(){
+      // small delay to let checkbox change propagate if invoked from elsewhere
+      setTimeout(() => {
+        totalAmountEl && (totalAmountEl.textContent = 'R0');
+        // Clear appended selection inside enquiry message (we'll leave user's typed text alone)
+        // Only remove the selection block if it exists (lines after '--- Selected services ---')
+        if (enqMessage.value.includes('--- Selected services ---')) {
+          enqMessage.value = enqMessage.value.split('--- Selected services ---')[0].trim();
+        }
+        enqFeedback.style.display = 'none';
+      }, 50);
+    });
+  }
+
+  // When user toggles checkboxes, also update the enquiry selected/estimate area (non-destructive)
+  svcForm.addEventListener('change', function(){
+    const sel = readSelection();
+    // update any visible estimate in the form (you previously removed the small block; we won't add DOM nodes)
+    // But we will set the total in the calculator area (already done by existing calculate function)
+    // Optionally keep a summary in the enquiry message but do not overwrite full user message:
+    // (we do not auto-inject here to avoid surprising the user; we inject on submit)
+  });
+
+})();
+</script>
+
+</body>
+</html>

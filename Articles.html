@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Camira — Articles</title>
+
+  <!-- reuse your site CSS -->
+  <link rel="stylesheet" href="css/site_global.css?crc=4185260426" />
+  <link rel="stylesheet" href="css/index.css?crc=3951584500" id="pagesheet" />
+
+  <!-- reuse your webfont if needed -->
+  <script type="text/javascript">var __adobewebfontsappname__="muse";</script>
+  <script src="https://webfonts.creativecloud.com/krona-one:n4:all;coda:n4:all.js" defer></script>
+
+  <style>
+    /* Make menu fixed at the top */
+#u2163-bw {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Push content down below fixed menu */
+body {
+  padding-top: 120px;  /* Adjust until spacing looks right */
+}
+
+
+    /* Push page content down below the menu */
+#u2163-bw + main {
+  margin-top: 100px; /* adjust if needed (80–120 works well) */
+}
+    /* Page-specific styles (non-destructive to your Muse CSS) */
+    body { background: #fff; }
+    main { max-width: 1020px; margin: 28px auto; padding: 0 20px 80px; }
+
+    .hero { text-align:center; color: #fff; padding: 80px 12px 28px; }
+    .hero h1 { font-family: coda, sans-serif; margin: 0 0 6px; font-size: 36px; }
+    .hero p { margin: 0 0 8px; opacity: 0.95; }
+
+    .pricing-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap:18px; margin-top:20px; }
+    .pricing-card { background: rgba(255,255,255,0.98); border-radius:12px; padding:18px; text-align:center; box-shadow: 0 8px 20px rgba(0,0,0,0.08); }
+    .pricing-card h3 { margin: 8px 0; font-family:krona-one, sans-serif; color:#222; }
+    .price { font-size:28px; font-weight:700; color:#2E3192; margin-bottom:10px; }
+    .features { text-align:left; margin:12px 0 16px; color:#333; }
+    .btn-cta { display:inline-block; padding:10px 16px; border-radius:8px; text-decoration:none; background:#2E3192; color:#fff; font-weight:600; }
+
+    /* Calculator specific */
+    #pricing-calculator { background: rgba(255,255,255,0.98); border-radius:12px; padding:18px; margin-top:22px; }
+    #pricing-calculator h2 { margin:0 0 8px; font-family:coda, sans-serif; }
+    .svc-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap:12px; }
+    .svc-item { display:block; padding:12px; border-radius:8px; border:1px solid rgba(0,0,0,0.06); }
+    .svc-item strong { display:block; }
+    .svc-item .price-small { margin-top:8px; font-weight:700; color:#2E3192; }
+    #total-row { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:18px; flex-wrap:wrap; }
+    #total-amount { color:#2E3192; font-weight:700; font-size:18px; }
+
+    @media (max-width:700px){
+      .hero h1 { font-size:28px; }
+    }
+
+    /* Ensures the pricing nav item stays styled like on the main site */
+    /* (These are safe duplicates of the CSS you already have for menu IDs) */
+    #u4000{ width:92px; min-height:34px; position:relative; margin-right:-10000px; left:469px; }
+    #u4001{ width:92px; background-color:transparent; border-radius:10px; padding-bottom:17px; position:relative; }
+    #u4002-4{ width:92px; min-height:17px; text-align:center; color:#FFFFFF; font-family:krona-one, sans-serif; position:relative; margin-right:-10000px; top:8px; }
+    #u4001.MuseMenuActive #u4002-4 p{ font-family: Helvetica, Helvetica Neue, Arial, sans-serif; }
+  </style>
+</head>
+<body>
+  <div id="page" class="clearfix">
+    <!-- Top nav (keeps your existing structure & IDs so styles match) -->
+    <div id="u2163-bw" class="browser_width colelem"><div id="u2163">
+      <div id="u2163_align_to_page" class="clearfix">
+        <nav class="MenuBar rounded-corners clearfix grpelem" id="menuu2033">
+          <!-- Home -->
+          <div class="MenuItemContainer clearfix grpelem" id="u2041">
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing rounded-corners clearfix colelem" id="u2042" href="index.html#home">
+              <div class="MenuItemLabel NoWrap rounded-corners clearfix grpelem" id="u2043-4"><p>Home</p></div>
+            </a>
+          </div>
+
+          <!-- About -->
+          <div class="MenuItemContainer clearfix grpelem" id="u2078">
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing rounded-corners clearfix colelem" id="u2079" href="index.html#about">
+              <div class="MenuItemLabel NoWrap rounded-corners clearfix grpelem" id="u2081-4"><p>About Us</p></div>
+            </a>
+          </div>
+
+          <!-- Services -->
+          <div class="MenuItemContainer clearfix grpelem" id="u2107">
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing rounded-corners clearfix colelem" id="u2108" href="index.html#services">
+              <div class="MenuItemLabel NoWrap rounded-corners clearfix grpelem" id="u2109-4"><p>Services</p></div>
+            </a>
+          </div>
+
+          <!-- Contact -->
+          <div class="MenuItemContainer clearfix grpelem" id="u2135">
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing rounded-corners clearfix colelem" id="u2138" href="index.html#contact">
+              <div class="MenuItemLabel NoWrap rounded-corners clearfix grpelem" id="u2139-4"><p>Contact Us</p></div>
+            </a>
+          </div>
+
+          <!-- Articles -->
+         <div class="MenuItemContainer clearfix grpelem" id="u2976">
+  <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix colelem MuseMenuActive" id="u2977" href="articles.html">
+    <div class="MenuItemLabel NoWrap rounded-corners clearfix grpelem" id="u2979-4"><p>Articles</p></div>
+  </a>
+</div>
+
+          <!-- Pricing (active) -->
+          <div class="MenuItemContainer clearfix grpelem" id="u4000">
+            <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing rounded-corners clearfix colelem MuseMenuActive" id="u4001" href="pricing.html">
+              <div class="MenuItemLabel NoWrap rounded-corners clearfix grpelem" id="u4002-4"><p>Pricing</p></div>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div></div>
+
+
+   <main style="margin-top:50px">
+      <div style="text-align: center; font-size: 35px; color:#000">
+        Vir die Suid Afrikaanse boer
+      </div><br><br><br>
+
+      <div style="text-align: center; font-size: 35px; color:#000">
+        SARS – ongelyke speelveld
+      </div>
+
+      <img src="images/pic01.png" alt="SARS – ongelyke speelveld" style="display:block; margin:20px auto; max-width:100%; height:auto"/>
+
+      <p style="max-width: 800px; margin: auto; text-align: justify;">
+        Vuisvoos belastingbetalers word gewetenloos verder en verder beroof van hulle geld.  SARS het omvorm na ‘n baie effektiewe geldinvordering masjien.  Wanneer SARS die belastingbetaler wel geld skuld of foute moet regmaak aan hulle kant verander die masjien in ‘n handploeg.  ‘n Handploeg waarvan die arbeider al te gereeld op “lunch” of “tea time” is.
+        </p><br>
+
+    <p style="max-width: 800px; margin: auto; text-align: justify;">
+        Indien jy die “call-centre” skakel hou jy aan van lente tyd tot persketyd.  Dis nou benewens die feit dat ondermeer Vrydagmiddag ‘n slegte tyd is om te probeer iemand in die hande kry.  Dieselfde geld vir elke dag na 15h45.
+
+        </p><br>
+
+    <p style="max-width: 800px; margin: auto; text-align: justify;">
+        Die Belasting Administrasie Wet (Tax Administration Act) het gedurende 2011 in werking getree.  Sommige mense het verwys na “drakoniese magte” wat deur hierdie wet verleen is aan SARS.  Hierdie wet reguleer die administrasie rondom belastingprosesse.
+        </p><br>
+
+    <p style="max-width: 800px; margin: auto; text-align: justify;">
+        Dit maak ondermeer voorsiening dat SARS self uit die belastingbetaler se rekening die geld mag onttrek – ongeag of jy saam stem met die bedrag  Hulle noem dit die ‘pay now argue later” beginsel.  Hierdie gebeur al te dikwels op ‘n hoogs ongeleë tyd, bv ‘n Vrydagmiddag.  Aksies soos hierdie het ondermeer al veroorsaak dat ‘n konstruksie maatskappy nie die weeklikse lone kon betaal vanuit die maatskappy nie.  Dit het gebeur nadat daar aansoek gedoen was by SARS vir afbetalingsreëlings en die aansoek se betalings stiptelik gemaak is.  SARS se enigste reaksie op hierdie klagte was ‘n stelling  - “at least it is paid now”.
+        </p><br>
+
+    <p style="max-width: 800px; margin: auto; text-align: justify;">
+        Die krisis rondom hierdie gedrag is dat jy nog saad bestel en gereed maak vir plant – en as jy jou oë uitvee is die geld om vir die saad en diesel te betaal skoonveld.
+        </p><br>
+
+    <p style="max-width: 800px; margin: auto; text-align: justify;">
+        Dis nou meer as ooit krities om te verseker dat alle opgawes tot op datum ingedien is.  SARS mag ‘n aanslag uitreik volgens hulle eie skatting indien daar nie ingedien word nie.  Verder word daar adminboetes gehef vir laat indiening.  Dit geld steeds, al dryf die maatskappy nie handel nie.  Hierdie kan baie vining ‘n aardige bedrag raak. Boete word bereken volgens die aangeslane verlies of belasbare inkomste.  Dit variëer tussen R250 en R16 000 per maand.  Indien jy glad nie handel gedryf het nie is dit steeds R 250 per maand.  Dit is krities om te onthou dat SARS ook hierdie gelde net uit jou bank kan neem
+        Voorbeeld:
+        </p>
+
+    <p style="max-width: 800px; margin: auto; text-align: justify;">
+    Belastingjare 2020 en 2021 is uitstaande.  Jou boetes op die SARS staat sal dus as volg lyk vir elke maand:</p><br>
+
+    <section style="max-width: 900px; margin: 120px auto 60px; padding: 0 16px">
+  <!-- Eerste tabel -->
+  <table style="width:100%; border-collapse:collapse; margin:0 auto">
+    <thead>
+      <tr style="background:#f3f3f3; text-align:center">
+        <th style="border:1px solid #ccc; padding:8px">Maand</th>
+        <th style="border:1px solid #ccc; padding:8px">Wat is agterstallig</th>
+        <th style="border:1px solid #ccc; padding:8px">Boete</th>
+        <th style="border:1px solid #ccc; padding:8px">Saldo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="text-align:center;">
+        <td style="border:1px solid #ccc; padding:8px">Januarie 2022</td>
+        <td style="border:1px solid #ccc; padding:8px">
+          Agterstallige opgawe 2020<br>
+          Agterstallige opgawe 2021
+        </td>
+        <td style="border:1px solid #ccc; padding:8px">
+          R250<br>
+          R250
+        </td>
+        <td style="border:1px solid #ccc; padding:8px">R500</td>
+      </tr>
+      <tr style="text-align:center">
+        <td style="border:1px solid #ccc; padding:8px">Februarie 2022</td>
+        <td style="border:1px solid #ccc; padding:8px">
+          Agterstallige opgawe 2020<br>
+          Agterstallige opgawe 2021
+        </td>
+        <td style="border:1px solid #ccc; padding:8px">
+          R250<br>
+          R250
+        </td>
+        <td style="border:1px solid #ccc; padding:8px">R1000</td>
+      </tr>
+      <tr style="text-align:center;">
+        <td style="border:1px solid #ccc; padding:8px">Maart 2022</td>
+        <td style="border:1px solid #ccc; padding:8px">
+          Agterstallige opgawe 2020<br>
+          Agterstallige opgawe 2021
+        </td>
+        <td style="border:1px solid #ccc; padding:8px">
+          R250<br>
+          R250
+        </td>
+        <td style="border:1px solid #ccc; padding:8px">R1500</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="text-align:center; margin:24px 0 16px">
+    In totaal is die bedrag R 9 000 betaalbaar op 1 Februarie 2022. Bereken as volg:
+  </p>
+
+  <!-- Tweede tabel -->
+  <table style="width:100%; border-collapse:collapse; margin:0 auto">
+    <thead>
+      <tr style="background:#f3f3f3; text-align:center">
+        <th style="border:1px solid #ccc; padding:8px">Belastingjaar uitstaande</th>
+        <th style="border:1px solid #ccc; padding:8px">Moes ingedien wees teen</th>
+        <th style="border:1px solid #ccc; padding:8px">Berekening</th>
+        <th style="border:1px solid #ccc; padding:8px">Bedrag</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="text-align:center">
+        <td style="border:1px solid #ccc; padding:8px">2020</td>
+        <td style="border:1px solid #ccc; padding:8px">31/01/2021</td>
+        <td style="border:1px solid #ccc; padding:8px">R250 x 12 maande x 2 jaar</td>
+        <td style="border:1px solid #ccc; padding:8px">R6 000</td>
+      </tr>
+      <tr style="text-align:center;">
+        <td style="border:1px solid #ccc; padding:8px">2021</td>
+        <td style="border:1px solid #ccc; padding:8px">31/01/2022</td>
+        <td style="border:1px solid #ccc; padding:8px">R250 x 12 maande x 1 jaar</td>
+        <td style="border:1px solid #ccc; padding:8px">R3 000</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
+    <p style="text-align: center">Gesien in die lig van bogenoemde moet u dringend aandag gee aan u belastingaangeleenthede.  Indien u enigsins hulp benodig is u welkom om Marica Gerber te kontak van Camira Geregistreerde Rekenmeesters en Ouditeure</p><br>
+
+    <p style="text-align: center">Selfoon:  084 602 2397</p>
+    <p style="text-align: center">Landlyn: 086 111 5227</p>
+    <p style="text-align: center">nommer: 0603832046</p>
+    <p style="text-align: center">E-pos: Info1@camira.co.za</p>
+    <p style="text-align: center">Website: www.camira.co.za</p>
+    </main>
+
+
+   
+</body>
+</html>
